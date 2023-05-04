@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!----------THIS IS THE HEAD. THIS IS WHERE ALL THE BASIC INFO ABOUT THE SITE IS HELD---->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--This is the Title of your website-->
+    <title>My personal Website</title>
+    <!--This is the CSS link for the Bootstrap Framework-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!--This is the link for your Style sheet-->
+    <link rel="stylesheet" href="styles.css" />
+    <!---This is the script tag for Bootstrap to make it function-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--This is the body. This is where your main website content goes-->
+  <body>
+    <!--This is a Div. Divs are used to section out your website to put content in different places-->
+    <!--This div in particular hold all the content for the header-->
+    <div class="header">
+      <!--This is a "row" div. rows are as bootstrap class that line up content into a row in different ways-->
+      <!--This is how I got your site sectioned out like the grid.-->
+      <div class="row headerRow">
+        <!--This is a "col" div. cols are another bootstrap class that tell you how big you want each column in your row to be-->
+        <!--In total you can have 12 col spaces taken up in a row-->
+        <!--So if you want 2 divs in a row, you divide 12 by 2, and whatever number you get is what you put for col-->
+        <!--So if you wanted two divs in a row, it would be col-6-->
+        <div class="col heading">
+          <!--This is an H1 tag. H tags are heading tags and they go from H1 to H6 getting smaller as you go down the numbers. H1 is the biggest-->
+          <h1 class="headings headingTitle">Bonnie L Silver</h1>
+          <!--This is an image tag. This is where you place whatever images you want too on your page.-->
+          <!--When you set an img, the src is the file directory where your image is on your computer.-->
+          <!--Alt is the text thats shown if the image is unavailable-->
+          <img class="img" src="Final Project/PeopleShot.png" alt="Person" />
+        </div>
+      </div>
+    </div>
+    <!--This div covers all of the page content-->
+    <!--As you can see, its set up in another row, but each column is a different number to achive the effect you asked for-->
+    <div class="mainPage">
+      <div class="row row1">
+        <div class="col-2 row1Div aboutMe">
+          <h2 class="headings headings2">About Me</h2>
+          <!--This is a horizontal rule. This just produces a straight line going horizontally going across whatever div its in-->
+          <hr />
+        </div>
+        <div class="col-5 row1Div bio">
+          <h2 class="headings headings2">Bio</h2>
+          <hr />
+        </div>
+        <div class="col-2 row1Div hobbies">
+          <h2 class="headings headings2">Hobbies</h2>
+          <hr />
+          <p class="hobbiesText">
+            Beekeeping has become my passion and my love for bees and the
+            environment is all encompassing. My mantra is Save the Bees. We need
+            them!
+          </p>
+          <div class="hobbiesPic">
+            <img
+              class="hobbiesImg"
+              src="Final Project/NOT THE BEEES.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-2 row1Div contactMe">
+          <h2 class="headings headings2">Contact Me</h2>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <!--One thing you may have noticed is the frequent use of "class"-->
+    <!--Class is used for Css, and gives an HTML element unique identifiers you can target to style the element in different ways-->
+    <!--You can add as many class tags as you want, and all of them are accesible in CSS-->
+  </body>
+  <!--If you have any specific questions, please reach out to me and ill explain how this all goes together as best as I can. -->
+</html>

@@ -1,0 +1,85 @@
+/***************************THIS IS THE CSS FILE OR STYLESHEET. THIS IS WHATS USED TO MAKE THE WEBSITE LOOK PRETTY*********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Montserrat:wght@400;700&family=Ubuntu&display=swap'); /*This is an import tag and simply gets our fonts from google fonts*/
+
+/*******IN CSS, YOU MODIFY A REGULAR HTML ELEMENT BY SIMPLY WRITING ITS NAME (H1, P, EXT) WHILE CLASSES ALWAYS START WITH A PERIOD (.HEADINGS, .IMG EXT)****************/
+hr {
+  color: white; /*Color changes the text color*/
+}
+.headings {
+  font-family: 'Lora', serif; /*sets font*/
+  text-align: center; /*aligns text to center*/
+}
+
+.headingTitle {
+  padding-top: 5rem; /*padding and margin help move the element where you want it, but are a little for difficult to explain*/
+  color: white;
+}
+
+.heading {
+  position: sticky; /*Position sets the position of an object relative to different things. Sticky makes the item stay wherever its currently at with scrolling*/
+  width: 100%; /*Sets how wide the div is supposed to be*/
+  background: linear-gradient(
+    to top left,
+    #28b487,
+    #7dd56f
+  ); /*This creates a gadient between two colors*/
+}
+
+.headings2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.headerRow {
+  height: 25vh; /*Sets how tall a div is supposed to be. vh is the measurment for viewport height*/
+}
+
+.img {
+  position: absolute;
+  top: 10%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #7dd56f;
+  /*The three border tags are what makes the picture look circular and give the circle color*/
+  bottom: 9rem; /*Rem is a measurement for size. 1 rem = 16 pixel*/
+  width: 20rem;
+}
+
+.hobbiesText {
+  font-family: 'Montserat', sans-serif;
+  color: white;
+}
+
+.hobbiesImg {
+  width: 60%;
+}
+.mainPage {
+  width: 100%;
+  height: 100vh;
+}
+
+.test {
+  text-align: center;
+  font-size: 100%;
+}
+.row1Div {
+  margin: 1.2rem;
+  height: 40vh;
+  border-radius: 5%;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.aboutMe {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.bio {
+}
+
+.hobbiesPic {
+  display: flex; /*display flex allows things to be better aligned to a div*/
+  align-items: center;
+  justify-content: center;
+  /*align items and justify content are flexBox classes that center an item horizontally and vertically to a div.*/
+}
