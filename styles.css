@@ -6,7 +6,19 @@
 hr {
   color: white; /*Color changes the text color*/
 }
+
+p {
+  color: white;
+}
+
+li {
+  font-family: 'Montserat', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
 .headings {
+  color: white;
   font-family: 'Lora', serif; /*sets font*/
   text-align: center; /*aligns text to center*/
 }
@@ -31,6 +43,10 @@ hr {
   color: white;
 }
 
+.resumeHeadings {
+  text-align: left;
+}
+
 .headerRow {
   height: 25vh; /*Sets how tall a div is supposed to be. vh is the measurment for viewport height*/
 }
@@ -46,13 +62,46 @@ hr {
   width: 20rem;
 }
 
+.proImg {
+  margin: 0 0 1rem 0;
+  width: 100%;
+  rotate: 90deg;
+}
+
+.smileImg {
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+}
+
+.roadImg {
+  width: 100%;
+}
+
+.bookImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookImg {
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.fillerImg {
+  width: 25%;
+  position: relative;
+  left: 7rem;
+}
+
 .hobbiesText {
   font-family: 'Montserat', sans-serif;
   color: white;
+  font-size: 1.5rem;
 }
 
 .hobbiesImg {
-  width: 60%;
+  width: 90%;
 }
 .mainPage {
   width: 100%;
@@ -65,21 +114,66 @@ hr {
 }
 .row1Div {
   margin: 1.2rem;
-  height: 40vh;
+  height: 76vh;
+  border-radius: 5%;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.row2Div {
+  margin-top: 1.2rem;
+  height: 60vh;
   border-radius: 5%;
   background: linear-gradient(to top left, #28b487, #7dd56f);
 }
 
 .aboutMe {
-  background: linear-gradient(to top left, #28b487, #7dd56f);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMeText {
+  font-size: 1.7rem;
+}
+.aboutText {
+  text-align: center;
 }
 
 .bio {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 .hobbiesPic {
+  margin-bottom: 1rem;
   display: flex; /*display flex allows things to be better aligned to a div*/
   align-items: center;
   justify-content: center;
   /*align items and justify content are flexBox classes that center an item horizontally and vertically to a div.*/
+}
+
+.imgSpace1 {
+  margin: 1.2rem 1.2rem 0 1.2rem;
+}
+
+.education {
+  margin: 1.2rem 1rem 1.2rem 1rem;
+}
+
+.experience {
+  margin: 1.2rem 0 1rem 0rem;
+}
+
+/***********************************************************************************RESUME*************************************************************************/
+
+.resume {
+  height: 350vh;
+  width: 100%;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.resumeInfo {
+  margin: 2rem 0 2rem 0;
+}
+
+.copyright {
+  margin-top: 6rem;
 }
